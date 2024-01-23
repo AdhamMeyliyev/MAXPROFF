@@ -1,0 +1,151 @@
+@mixin d-flex{
+    display: flex;
+    align-items:center;
+}
+
+@mixin j-content-sb{
+    justify-content: space-between;
+}
+
+
+@mixin header-nav-gap{
+    gap: 24px;
+}
+
+.header{
+    .container{
+        @include d-flex;
+        @include j-content-sb;
+        margin-top: 23px;
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+        border-bottom: 1px solid $btn-color;
+    }
+}
+
+.nav__list{
+    @include d-flex;
+    @include header-nav-gap;
+
+    .nav__list__item{
+        a{
+            font-size: $text-f-size;
+            color:$text-color;
+        }
+    }
+}
+
+.nav__list__item1{
+    a{
+        color:#234875 !important;
+    }
+}
+
+.nav {
+    .container{
+        padding-bottom: 21px;
+        margin-bottom: 33px;
+        border-bottom: 1px solid $btn-color;
+    }
+}
+
+.navbar__list__item{
+    a{
+        font-size: $text-f-size;
+        color:$text-color;
+        font-weight:600;
+    }
+}
+
+.navbar__list__item2::after{
+    content: url(/assets/icon/chevron-down.svg);
+    position: relative;
+    top: 6px;
+}
+
+
+
+.header__right{
+    @include d-flex;
+    gap: 33px;
+}
+
+.contact{
+    @include d-flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .tel{
+        font-size: $text-f-size + 2px;
+        color:$text-color;
+        font-weight: bold;
+    }
+
+    .teme{
+        font-size: $text-f-size - 2px;
+        color:$text-color;
+    }
+}
+
+.tel::before{
+    content:url(/assets/icon/call-icon.svg);
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+//////////////////////////
+
+.navbar--hover1{
+    position: relative;
+}
+
+.navbar--hover1:hover .drop-down1{
+    display: block;
+    transition:all .4s ease-in;
+}
+
+.drop-down1{
+    width: 196px;
+    height: 237px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    margin: 0 auto;
+    top: 30px;
+    left: -15px;
+    display: none;
+    transition:all .4s ease-in-out;
+
+}
+
+.drop-down1__list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+    padding-top: 25px;
+    padding-left: 31px;
+}
+
+.drop-down1__list__item{
+    transition: all .3s ease-in-out;
+
+    a{
+        font-size: $text-f-size;
+        color:$text-color;
+        text-align: center;
+    }
+}
+
+.drop-down1__list__item:hover{
+    width: 135px;
+    height: 45px;
+    border:1px solid $btn-color;
+    border-radius:5px; 
+    padding: 13px;
+    margin-left: -10px;
+    transition: all .3s ease-in;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

@@ -1,0 +1,49 @@
+.call__btn{
+    width: 173px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid $btn-color;
+    background-color: transparent;
+    font-size: $text-f-size;
+    color:$btn-color;
+    font-weight: 600;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.call__btn:hover{
+    background-color: $btn-color;
+    color:#fff;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.call__btn:active{
+    opacity: .7;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.order__btn{
+    width: 133px;
+    height: 48px;
+    background-color: $btn-color;
+    border:3px solid $btn-color;
+    border-radius:4px;
+    font-size: $text-f-size + 2px;
+    color:#fff;
+    cursor: pointer; 
+    transition: all .3s ease-in-out;
+}
+
+.order__btn:hover{
+    background-color: transparent;
+    color:$btn-color;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.order__btn:active{
+    opacity: .7;
+}
