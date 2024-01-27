@@ -15,7 +15,7 @@ ol, ul {
   list-style: none;
 }
 
-a {
+a, ins {
   text-decoration: none;
   color: black;
 }
@@ -65,6 +65,31 @@ a {
 }
 
 .order__btn:active {
+  opacity: 0.7;
+}
+
+.repair__btn {
+  width: 188px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #6CAC3D;
+  border: 3px solid #6CAC3D;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.repair__btn:hover {
+  background-color: transparent;
+  color: #6CAC3D;
+  transition: all 0.3s ease-in-out;
+}
+
+.repair__btn:active {
   opacity: 0.7;
 }
 
@@ -254,84 +279,6 @@ a {
   padding-left: 53px;
 }
 
-.inp--big--wrap {
-  width: 313px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.inp-lab__wrapper1 {
-  display: flex;
-  align-items: center;
-  gap: 67px;
-}
-
-.hero--right__hr {
-  width: 405px;
-  height: 1px;
-  background-color: #d6d6d6;
-}
-
-.radio {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: capitalize;
-  display: inline-block;
-  vertical-align: middle;
-  color: #2D4872;
-  position: relative;
-  padding-left: 30px;
-}
-
-.radio input[type=radio] {
-  display: none;
-}
-
-.radio span {
-  height: 18px;
-  width: 18px;
-  border-radius: 50%;
-  border: 3px solid #2D4872;
-  display: block;
-  position: absolute;
-  left: 5px;
-  top: 1px;
-}
-
-.radio span:after {
-  content: "";
-  height: 10px;
-  width: 10px;
-  background-color: #2D4872;
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 52%;
-  transform: translate(-50%, -50%) scale(0);
-  border-radius: 50%;
-  transition: 100ms ease-in-out 0s;
-}
-
-.radio input[type=radio]:checked ~ span:after {
-  transform: translate(-50%, -50%) scale(1);
-  color: #2D4872;
-}
-
-.inp-lable--wrapper {
-  display: flex;
-  gap: 67px;
-  margin-bottom: 18px;
-}
-
-.inp-lable-in__wrapper {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  margin-bottom: 9px;
-  gap: 9px;
-}
-
 .hero--right__h3 {
   font-size: 20px;
   color: #171616;
@@ -434,6 +381,84 @@ a {
   justify-content: space-between;
 }
 
+.inp--big--wrap {
+  width: 313px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inp-lab__wrapper1 {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+
+.hero--right__hr {
+  width: 405px;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+
+.radio {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  color: #2D4872;
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio input[type=radio] {
+  display: none;
+}
+
+.radio span {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 3px solid #2D4872;
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 1px;
+}
+
+.radio span:after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #2D4872;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 100ms ease-in-out 0s;
+}
+
+.radio input[type=radio]:checked ~ span:after {
+  transform: translate(-50%, -50%) scale(1);
+  color: #2D4872;
+}
+
+.inp-lable--wrapper {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 18px;
+}
+
+.inp-lable-in__wrapper {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 9px;
+  gap: 9px;
+}
+
 .slider-container {
   position: relative;
 }
@@ -506,4 +531,144 @@ a {
   padding-left: 13px;
   font-size: 14px;
   color: #595959;
+}
+
+.repair {
+  margin-top: 73px;
+}
+
+.repair__heading__h2 {
+  font-size: 42px;
+  color: #171616;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.repair__list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.repair__list__items:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.repair__list__items {
+  width: 284px;
+  height: 582px;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.repair__list__items .repair__item--top {
+  padding-top: 14px;
+  width: 100%;
+  height: 85px;
+  background-color: #E3EAEF;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.repair__list__items .repair__item--top .repair__container {
+  width: 239px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.repair__list__items .repair__item--top .repair__item--top__h3 {
+  font-size: 18px;
+  color: #6CAC3D;
+}
+.repair__list__items .repair__item--top .repair__item--top__h3 .repair__item--top__h4 {
+  font-size: 14px;
+  color: #171616;
+}
+
+.repair__container {
+  width: 239px;
+  margin: 0 auto;
+}
+
+.repair__desc {
+  font-size: 14px;
+  color: #171616;
+  margin-top: 24px;
+  margin-bottom: 39px;
+}
+
+.repair__hr {
+  width: 100%;
+  height: 2px;
+  background-color: #2D4872;
+}
+
+.dismantling__heading, .hard--work__heading {
+  font-size: 14px;
+  color: #171616;
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+
+.dismantling2, .dismantling1, .hard--work__desc {
+  font-size: 14px;
+  color: #171616;
+}
+
+.dismantling2::before {
+  content: url(/assets/icon/repair__check-icon.svg);
+  margin-right: 4px;
+}
+
+.dismantling1::before {
+  content: url(/assets/icon/repair__check-icon.svg);
+  margin-right: 4px;
+}
+
+.hard--work__desc::before {
+  content: url(/assets/icon/repair__check-icon.svg);
+  margin-right: 4px;
+}
+
+.dismantling1 {
+  margin-bottom: 6px;
+}
+
+.hard--work__desc {
+  margin-bottom: 22px;
+}
+
+.wall--heading {
+  font-size: 14px;
+  color: #c4c4c4;
+  margin-bottom: 30px;
+}
+
+.list-of-works {
+  font-size: 18px;
+  color: #2D4872;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.repair__price--wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+.repair__price--wrapper .repair__price1 {
+  font-size: 14px;
+  color: #171616;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.repair__price--wrapper .repair__price2 {
+  font-size: 17px;
+  color: #6CAC3D;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

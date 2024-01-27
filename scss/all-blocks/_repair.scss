@@ -1,0 +1,148 @@
+.repair{
+    margin-top: 73px;
+}
+
+.repair__heading__h2{
+    font-size: 42px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.repair__list{
+    @include d-flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.repair__list__items:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all .3s ease-in-out;
+}
+
+.repair__list__items{
+    width: 284px;
+    height: 582px;
+    background-color: #fff;
+    border-radius:20px;
+    transition: all .3s ease-in;
+    // padding-left: 27px;
+    // padding-right: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    .repair__item--top{
+        padding-top: 14px;
+        width: 100%;
+        height: 85px;
+        background-color: #E3EAEF;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+        .repair__container{
+            width: 239px;
+            margin: 0 auto;
+            @include d-flex;
+            gap: 4px;
+        }
+
+        .repair__item--top__h3{
+            font-size: $text-f-size + 2px;
+            color:$btn-color;
+
+            .repair__item--top__h4{
+                font-size: $text-f-size - 2px;
+                color:$text-color;
+            }
+        }
+    }
+}
+
+.repair__container{
+    width: 239px;
+    margin: 0 auto;
+    
+}
+
+.repair__desc{
+    font-size: $text-f-size - 2px;
+    color:$text-color;
+    margin-top: 24px;
+    margin-bottom: 39px;
+}
+
+.repair__hr{
+    width: 100%;
+    height: 2px;
+    background-color: #2D4872;
+
+}
+
+.dismantling__heading, .hard--work__heading{
+    font-size: $text-f-size - 2px;
+    color: $text-color;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.dismantling2, .dismantling1, .hard--work__desc{
+    font-size: $text-f-size - 2px;
+    color:$text-color;
+}
+
+.dismantling2::before{
+    content:url(/assets/icon/repair__check-icon.svg);
+    margin-right: 4px;
+}
+
+.dismantling1::before{
+    content:url(/assets/icon/repair__check-icon.svg);
+    margin-right: 4px;
+}
+
+.hard--work__desc::before{
+    content:url(/assets/icon/repair__check-icon.svg);
+    margin-right: 4px;
+}
+
+.dismantling1{
+    margin-bottom: 6px;
+}
+
+.hard--work__desc{
+    margin-bottom: 22px;
+}
+
+.wall--heading{
+    font-size: $text-f-size - 2px;
+    color:#c4c4c4;
+    margin-bottom: 30px;
+}
+
+.list-of-works{
+    font-size: $text-f-size + 2px;
+    color:#2D4872;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+
+.repair__price--wrapper{
+    @include d-flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 20px;
+
+    .repair__price1{
+        font-size: $text-f-size - 2px;
+        color:$text-color;
+        text-decoration: line-through;
+        font-weight: bold;
+    }
+
+    .repair__price2{
+        font-size: $text-f-size + 1px;
+        color:$btn-color;
+        font-weight: bold;
+
+    }
+}
+
