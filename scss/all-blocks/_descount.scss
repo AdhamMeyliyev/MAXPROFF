@@ -1,0 +1,61 @@
+.descount{
+    margin-bottom: 57px;
+    width: 100%;
+}
+
+
+.descount--heading__h2{
+    font-size: 42px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.descount__list{
+    @include d-flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.descount__list__item{
+    width: 387px;
+    height: 490px;
+    padding-top: 321px;
+    background-color: red;
+    background-image: url(/assets/images/descount-carts__img1.png);
+}
+
+.descount__list__item_2{
+    background-image: url(/assets/images/descount-carts__img2.png);
+}
+
+.descount__list__item_3{
+    background-image: url(/assets/images/descount-carts__img3.png);
+}
+
+
+.descount__item--in--wrapper{
+    width: 387px;
+    height: 131px;
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255,255,255,0.95) 30%, rgba(255,255,255,0) 99%);
+    display: block;
+}
+
+.descount__item__h3{
+    font-size: 32px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.descount__item__desc{
+    // width: 272px;
+    font-size: $text-f-size;
+    color:$text-color;
+    text-align: center;
+    padding-left: 57px;
+    padding-right: 57px;
+    margin-bottom: 24px;
+}

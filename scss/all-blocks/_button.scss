@@ -100,3 +100,51 @@
 .example__btn:active{
     opacity: .7;
 }
+
+.descount__item__btn{
+    width: 205px;
+    height: 48px;
+    border-radius:4px;
+    background-color: $btn-color;
+    border:3px solid $btn-color;
+    font-size: $text-f-size + 2px;
+    color:#fff;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.descount__item__btn:hover{
+    background-color: #fff;
+    color:$btn-color;
+    transition: all .3s ease-in-out;
+}
+
+.descount__item__btn:active{
+    opacity: .7;
+}
+
+.descount__btn{
+    width: 205px;
+    height: 48px;
+    border-radius:4px;
+    background-color: transparent;
+    border:3px solid $btn-color;
+    font-size: $text-f-size + 2px;
+    color:$btn-color;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.descount__btn:hover{
+    background-color: $btn-color;
+    color:#fff;
+    transition: all .3s ease-in-out;
+}
+
+.descount__btn:active{
+    opacity: .7;
+}

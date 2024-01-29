@@ -1,8 +1,22 @@
 .example{
     padding-top: 98px;
-    margin-bottom: 98px;
+    margin-bottom: 66px;
     background-color:#f8f8f8;
     height: 870px;
+    position: relative;
+    
+}
+
+.example__left--btn--icon{
+    position: absolute;
+    left: 51px;
+    top: 55%;
+}
+
+.example__right--btn--icon{
+    position: absolute;
+    right: 51px;
+    top: 55%;
 }
 
 .example--heading__h2{
