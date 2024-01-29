@@ -73,3 +73,30 @@
 .repair__btn:active{
     opacity: .7;
 }
+
+
+.example__btn{
+    font-size: $text-f-size + 2px;
+    color:#fff;
+    width: 205px;
+    height: 48px;
+    border-radius:4px;
+    background-color: $btn-color;
+    border:3px solid $btn-color;
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.example__btn:hover{
+    background-color: transparent;
+    color:$btn-color;
+    transition: all .3s ease-in-out;
+}
+
+.example__btn:active{
+    opacity: .7;
+}
