@@ -1,0 +1,76 @@
+.we-work--heading__h2{
+    font-size: 42px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.we-work__desc{
+    font-size: $text-f-size + 2px;
+    color:$text-color;
+    text-align: center;
+    width: 773px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.we-work__list__item{
+    width: 107px;
+    height: 151px;
+    transition: all .3s ease-in;
+}
+
+.we-work__list__item:hover{
+    margin-top: -20px;
+    transition: all .3s ease-in-out;
+}
+
+.we-work__card__img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.we-work__card__desc{
+    font-size: $text-f-size;
+    color: $text-color;
+    width: 107px;
+    text-align: center;
+}
+
+.we-work__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+
+.we-work--bottom--wrapper{
+    position: relative;
+}
+
+.we-work--bottom__long{
+    width: 1161px;
+    height: 6px;
+    background-color: #d1d1d1;
+    border-radius:3px;
+}
+
+.we-work__circle--wrapper{
+    @include d-flex;
+    position: relative;
+    top: -15px;
+    left: -19px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.we-work__circle{
+    width: 26px;
+    height: 26px;
+    border-radius:50%;
+    background-color: #d1d1d1;
+    border:2px solid #fff;
+}
+

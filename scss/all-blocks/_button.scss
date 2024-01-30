@@ -113,6 +113,7 @@
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    transition: all .3s ease-in;
 }
 
 .descount__item__btn:hover{
@@ -137,6 +138,7 @@
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    transition: all .3s ease-in;
 }
 
 .descount__btn:hover{

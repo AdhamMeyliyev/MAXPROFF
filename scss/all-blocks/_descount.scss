@@ -24,6 +24,12 @@
     padding-top: 321px;
     background-color: red;
     background-image: url(/assets/images/descount-carts__img1.png);
+    transition: all .3s ease-in-out;
+}
+
+.descount__list__item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all .3s ease-in-out;
 }
 
 .descount__list__item_2{
@@ -51,11 +57,11 @@
 }
 
 .descount__item__desc{
-    // width: 272px;
+    width: 272px;
     font-size: $text-f-size;
     color:$text-color;
     text-align: center;
-    padding-left: 57px;
-    padding-right: 57px;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 24px;
 }
