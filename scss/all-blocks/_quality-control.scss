@@ -1,0 +1,61 @@
+.quality-control{
+    margin-top: 54px;
+    margin-bottom: 115px;
+
+    .quality-control__heading{
+        font-size: 42px;
+        color:$text-color;
+        text-align: center;
+        margin-bottom: 11px;
+    }
+    
+    .quality-control--top__desc{
+        font-size: $text-f-size + 2px;
+        color:$text-color;
+        text-align: center;
+        margin-bottom: 59px;
+    }
+
+    .quality-control__main{
+        @include d-flex;
+        gap: 24px;
+    }
+
+    .quality-control__list{
+        @include d-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 58px;
+        margin-top: -25px;
+    }
+
+    .quality-control__list__item{
+        width: 215px;
+        height: 163px;
+        margin-bottom: -25px;
+
+
+        .quality-control__card__number{
+            font-size: $text-f-size + 14px;
+            color:$btn-color;
+            margin-bottom: 10px;
+
+            .quality-control__card__number__span{
+                font-size: $text-f-size;
+                color:#d6d6d6;
+            }
+        }
+
+        .quality-control__card__heading{
+            font-size: $text-f-size + 2px;
+            color:$text-color;
+            margin-bottom: 11px;
+        }
+
+        .quality-control__card__heading__desc{
+            font-size: $text-f-size;
+            color:$text-color;
+        }
+    }
+}
+

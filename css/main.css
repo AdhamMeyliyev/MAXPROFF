@@ -1145,4 +1145,57 @@ a, ins {
   display: flex;
   align-items: center;
   gap: 18px;
+}
+
+.quality-control {
+  margin-top: 54px;
+  margin-bottom: 115px;
+}
+.quality-control .quality-control__heading {
+  font-size: 42px;
+  color: #171616;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.quality-control .quality-control--top__desc {
+  font-size: 18px;
+  color: #171616;
+  text-align: center;
+  margin-bottom: 59px;
+}
+.quality-control .quality-control__main {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.quality-control .quality-control__list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 58px;
+  margin-top: -25px;
+}
+.quality-control .quality-control__list__item {
+  width: 215px;
+  height: 163px;
+  margin-bottom: -25px;
+}
+.quality-control .quality-control__list__item .quality-control__card__number {
+  font-size: 30px;
+  color: #6CAC3D;
+  margin-bottom: 10px;
+}
+.quality-control .quality-control__list__item .quality-control__card__number .quality-control__card__number__span {
+  font-size: 16px;
+  color: #d6d6d6;
+}
+.quality-control .quality-control__list__item .quality-control__card__heading {
+  font-size: 18px;
+  color: #171616;
+  margin-bottom: 11px;
+}
+.quality-control .quality-control__list__item .quality-control__card__heading__desc {
+  font-size: 16px;
+  color: #171616;
 }/*# sourceMappingURL=main.css.map */
