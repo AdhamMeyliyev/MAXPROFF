@@ -1234,4 +1234,66 @@ a, ins {
 .adventages__list__item .adventages__cards__desc {
   font-size: 14px;
   color: #171616;
+}
+
+.comments {
+  width: 100%;
+  height: 942px;
+  background-color: #f8f8f8;
+}
+.comments .comment__heading__h2 {
+  padding-top: 29px;
+  font-size: 42px;
+  color: #171616;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.comments .comment__list__item {
+  width: 586px;
+  height: 367px;
+  background-color: #fff;
+}
+.comments .comment__card__video {
+  width: 586px;
+  height: 298px;
+  background-color: #595959;
+}
+.comments .comment__card__video .comment__youtube--icon {
+  position: relative;
+  top: 120px;
+  left: 43%;
+}
+.comments .comment__card--desc--wraapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 27px;
+  margin-top: 14px;
+  margin-bottom: 3px;
+}
+.comments .comment__card--desc--wraapper .comment__card__video--desc {
+  font-size: 14px;
+  color: #171616;
+}
+.comments .comment__card--desc--wraapper .comment__card__video--heading {
+  font-size: 18px;
+  color: #6CAC3D;
+}
+.comments .comment__card__location {
+  font-size: 18px;
+  color: #171616;
+  margin-left: 27px;
+}
+.comments .comment__card__location::before {
+  content: url(/assets/icon/comment__card--location--icon.svg);
+  position: relative;
+  margin-right: 3px;
+}
+
+.comment__list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
 }/*# sourceMappingURL=main.css.map */
