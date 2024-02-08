@@ -1,0 +1,33 @@
+.ques-answ{
+    margin-bottom: 87px;
+}
+
+.ques-answ__heading{
+    font-size: 42px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.ques-answ__desc{
+    font-size: $text-f-size + 6px;
+    color:$text-color;
+    margin-bottom: 43px;
+    text-align: center;
+}
+
+.ques-answ__list{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    font-size: $text-f-size + 2px;
+    color:$text-color;
+
+    .ques-answ__list__item::before{
+        content:url(/assets/icon/+.svg);
+        position: relative;
+        top: 8px;
+        right: 22px;
+
+    }
+}
