@@ -1,0 +1,70 @@
+.team__heading__h2{
+    font-size: 42px;
+    color:$text-color;
+    text-align: center;
+    padding-top: 73px;
+    margin-bottom: 41px;
+}
+
+.team--top__list{
+    @include d-flex;
+    gap: 42px;
+    margin-bottom: 29px;
+    .team--top__list__item{
+        font-size: $text-f-size + 2px;
+        color:$text-color;
+        font-weight: bold;
+    }
+}
+
+.we-work__circle{
+    transition: all .3s ease-in;
+}
+
+.we-work__circle:hover {
+    background-color:$btn-color !important;
+    transition: all .3s ease-in-out;
+}
+
+.we-work__circle_2{
+    transition: all .3s ease-in;
+}
+
+.we-work__circle_2:hover {
+    background-color:$btn-color !important;
+    transition: all .3s ease-in-out;
+}
+
+.splide__track{
+    height: 400px !important;
+    margin-bottom: 88px
+}
+
+
+.splide__slide{
+    @include d-flex;
+    gap: 84px;
+}
+
+.team--slider__heading__h3{
+    font-size: $text-f-size + 2px;
+    color:$btn-color;
+    margin-bottom: 15px;
+}
+
+.team--slider__heading__h4{
+    font-size: $text-f-size + 2px;
+    color:$text-color;
+}
+
+.team--slider__desc{
+    font-size: $text-f-size - 2px;
+    color:$text-color;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.team--slider__list{
+    list-style:disc;
+    padding-left: 20px;
+}
