@@ -1719,4 +1719,63 @@ a, ins {
   padding: 1em 0;
   right: 0.5em;
   top: 0;
+}
+
+.specialists {
+  width: 100%;
+  height: 1067px;
+  background-color: #f8f8f8;
+}
+
+.specialists__heading {
+  font-size: 42px;
+  color: #171616;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.splide2__list {
+  margin-left: 100px !important;
+}
+
+.splide2__img2 {
+  margin-left: -120px;
+}
+
+.splide2__img3 {
+  margin-left: 50px;
+}
+
+.specialists--left {
+  width: 586px;
+  height: 298px;
+  background-color: #555555;
+}
+.specialists--left img {
+  position: relative;
+  top: 120px;
+  left: 43%;
+}
+
+.specialists__bottom {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+  margin-top: 109px;
+}
+.specialists__bottom .specialists--right {
+  width: 475px;
+  height: 298px;
+  background-color: #fff;
+  padding-top: 74px;
+  padding-left: 44px;
+}
+
+.specialists__bottom__list {
+  list-style: disc;
+}
+.specialists__bottom__list .specialists__bottom__list__item {
+  font-size: 16px;
+  line-height: 20px;
+  color: #171616;
 }/*# sourceMappingURL=main.css.map */
