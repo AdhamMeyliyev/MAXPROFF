@@ -150,3 +150,28 @@
 .descount__btn:active{
     opacity: .7;
 }
+
+.supplier__btn{
+    width: 205px;
+    height: 48px;
+    border-radius:4px;
+    background-color: $btn-color;
+    border:3px solid $btn-color;
+    font-size: $text-f-size + 2px;
+    color:#fff;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.supplier__btn:hover{
+    background-color: #fff;
+    color:$btn-color;
+    transition: all .3s ease-in-out;
+}
+
+.supplier__btn:active{
+    opacity: .7;
+}
